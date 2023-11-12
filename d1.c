@@ -42,8 +42,6 @@ void *philosopher2(void *param) {
 
     pthread_mutex_unlock(&fork1);
     printf("\t\tPhilosopher 2 put down fork 1\n");
-    
-    printf("\n\t\t* Philosopher 1 is thinking *\n\n");
 
     pthread_mutex_unlock(&fork2);
     printf("\t\tPhilosopher 2 put down fork 2\n");
