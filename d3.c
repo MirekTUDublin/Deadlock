@@ -88,7 +88,7 @@ void *philosopher4(void *param) {
     printf("\t\t\t\t\t\tPhilosopher 4 put down fork 1\n");
 
     pthread_mutex_unlock(&fork4);
-    printf("\t\t\t\t\t\tPhilosopher 4 put down fork 1\n");
+    printf("\t\t\t\t\t\tPhilosopher 4 put down fork 4\n");
     
     printf("\n\t\t\t\t\t\t* Philosopher 4 is thinking *\n\n");
     }
