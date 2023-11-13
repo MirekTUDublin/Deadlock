@@ -56,7 +56,7 @@ void *philosopher3(void *param) {
     
     printf("\t\t\t\tPhilosopher 3 wants to pick up fork 4\n");
     pthread_mutex_lock(&fork4);  
-    printf("\t\t\t\tPhilosopher t picked up fork 4\n");
+    printf("\t\t\t\tPhilosopher 3 picked up fork 4\n");
     
     printf("\n\t\t\t\t* Philosopher 3 is eating *\n\n");
      
